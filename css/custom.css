@@ -101,9 +101,13 @@ a.scnd-head:visited {
   border: none;
 }
 
+.lead-nums {
+  font-size: 1.0rem;
+}
+
 .lead-mini {
   text-align: right;
-  font-size: 0.75rem;
+  font-size: 1.0rem;
 }
 
 .my-scls {
