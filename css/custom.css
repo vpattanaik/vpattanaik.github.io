@@ -1,0 +1,157 @@
+html {
+  scroll-behavior: smooth;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: black;
+}
+
+hr {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+a:hover {
+  text-decoration: none;
+}
+
+a.scnd-head:link {
+  color: #6c757d !important;
+}
+
+a.scnd-head:hover {
+  color: #343a40 !important;
+}
+
+a.scnd-head:visited {
+  color: #6c757d !important;
+}
+
+/*##################################################*/
+
+.top-gap {
+  margin-top: 10rem;
+}
+
+.left-gap {
+  margin-left: 5rem;
+}
+
+.full-height {
+  height: 80vh;
+}
+
+/*##################################################*/
+
+.a-btn {
+  color: white !important;
+}
+.container {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.modified-jbtrn {
+  box-sizing: border-box;
+  position: relative;
+  top: 5rem;
+  padding: 1rem;
+  margin: 2rem 0;
+}
+
+.first-md-jbtrn {
+  margin-top: 0 !important;
+}
+
+.last-md-jbtrn {
+  margin-bottom: 0 !important;
+}
+
+.name-jbtrn {
+  margin-bottom: 1rem !important;
+  top: 4rem;
+}
+
+
+.scrl-elem {
+  position: absolute;
+  top: -8rem;
+}
+
+.lead {
+  padding-top: 1rem;
+}
+
+.cntr-elem {
+  text-align: center;
+  padding-bottom: 1rem;;
+}
+
+.bibbase-data {
+  width: 100%;
+  min-height: 50rem;
+  max-height: 100vh;
+  border: none;
+}
+
+.lead-mini {
+  text-align: right;
+  font-size: 0.75rem;
+}
+
+.my-scls {
+  width: 3rem;
+}
+
+.small-print {
+  margin-top: 8rem;
+  width: 100%;
+  text-align: center;
+}
+
+/*##################################################*/
+
+@media (min-width: 320px) {
+  .cntr-elem {
+    width: 33%
+  }
+}
+
+@media (min-width: 360px) {
+  .cntr-elem {
+    width: 33%
+  }
+}
+
+@media (min-width: 480px) {
+  .cntr-elem {
+    width: 16%
+  }
+}
+
+@media (min-width: 576px) {
+  .cntr-elem {
+    width: 16%
+  }
+}
+
+@media (min-width: 768px) {
+  .cntr-elem {
+    width: 16%
+  }
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
