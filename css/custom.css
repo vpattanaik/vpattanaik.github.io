@@ -18,6 +18,10 @@ hr {
 	border-top: 1px solid rgba(0, 0, 0, 0.1);
   }
 
+a {
+  word-wrap: break-word;
+}
+
 a:hover {
   text-decoration: none;
 }
@@ -32,6 +36,10 @@ a.scnd-head:hover {
 
 a.scnd-head:visited {
   color: #6c757d !important;
+}
+
+img {
+  height: 3rem;
 }
 
 /*##################################################*/
