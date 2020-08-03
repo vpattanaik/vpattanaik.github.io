@@ -38,10 +38,6 @@ a.scnd-head:visited {
   color: #6c757d !important;
 }
 
-img {
-  height: 3rem;
-}
-
 /*##################################################*/
 
 .top-gap {
@@ -57,6 +53,11 @@ img {
 }
 
 /*##################################################*/
+
+#logo-cv {
+  height: 3rem !important;
+}
+
 
 .a-btn {
   color: white !important;
