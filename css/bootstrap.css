@@ -153,14 +153,16 @@ sup {
   top: -.5em;
 }
 
+/* CUSTOM */
 a {
   color: #007bff;
   text-decoration: none;
   background-color: transparent;
 }
 
+/* CUSTOM */
 a:hover {
-  color: #0056b3;
+  color: #0062cc;
   text-decoration: underline;
 }
 
@@ -2557,23 +2559,26 @@ fieldset:disabled a.btn {
   pointer-events: none;
 }
 
+/* CUSTOM */
 .btn-primary {
   color: #fff;
   background-color: #007bff;
+  border-color: #3395FF;
+}
+
+/* CUSTOM */
+.btn-primary:hover {
+  color: #fff;
+  background-color: #0062cc;
   border-color: #007bff;
 }
 
-.btn-primary:hover {
-  color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-}
-
+/* CUSTOM */
 .btn-primary:focus, .btn-primary.focus {
   color: #fff;
-  background-color: #0069d9;
-  border-color: #0062cc;
-  box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
+  background-color: #0062cc;
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.5);
 }
 
 .btn-primary.disabled, .btn-primary:disabled {
