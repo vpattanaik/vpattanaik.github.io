@@ -12,11 +12,11 @@ h6 {
 }
 
 hr {
-	margin-top: 1rem;
-	margin-bottom: 1rem;
-	border: 0;
-	border-top: 1px solid rgba(0, 0, 0, 0.1);
-  }
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
 
 a {
   word-wrap: break-word;
@@ -62,6 +62,7 @@ a.scnd-head:visited {
 .a-btn {
   color: white !important;
 }
+
 .container {
   box-sizing: border-box;
   position: relative;
@@ -100,7 +101,8 @@ a.scnd-head:visited {
 
 .cntr-elem {
   text-align: center;
-  padding-bottom: 1rem;;
+  padding-bottom: 1rem;
+  ;
 }
 
 .bibbase-data {
@@ -127,6 +129,12 @@ a.scnd-head:visited {
   margin-top: 8rem;
   width: 100%;
   text-align: center;
+}
+
+.double-column-list {
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 
 /*##################################################*/
@@ -161,10 +169,6 @@ a.scnd-head:visited {
   }
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px) {}
 
-}
-
-@media (min-width: 1200px) {
-
-}
+@media (min-width: 1200px) {}
